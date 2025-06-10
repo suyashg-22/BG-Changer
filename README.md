@@ -1,12 +1,55 @@
-# React + Vite
+Background Color Changer 🎨
+A simple React app that allows users to change the background color of the page with the click of a button.
+Built using React + Vite + Tailwind CSS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🛠️ Tech Stack
+React
 
-Currently, two official plugins are available:
+Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tailwind CSS
 
-## Expanding the ESLint configuration
+🚀 Getting Started
+1️⃣ Clone the repo
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+2️⃣ Install dependencies
+npm install
+3️⃣ Run the development server
+npm run dev
+4️⃣ Build for production
+npm run build
+📂 Project Structure
+public/           # Static files (vite.svg)
+src/              # Source code
+  App.jsx         # App component with background color logic
+  index.css       # Tailwind CSS styles
+  main.jsx        # Entry point
+index.html        # HTML template
+vite.config.js    # Vite configuration
+tailwind.config.js # Tailwind configuration
+🎨 Features
+Click on buttons to instantly change the background color of the page.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Smooth transition effect on background color.
+
+Fully responsive UI with modern design.
+
+Built using React functional components and hooks.
+
+🔗 Live Demo
+Coming soon...
+
+📜 License
+This project is licensed under the MIT License.
+
+⭐ How it works
+Uses the useState React hook to manage the color state.
+
+The main container's background color is set dynamically with inline styles:
+
+jsx
+Copy
+Edit
+style={{backgroundColor: color}}
+Buttons trigger setColor with the desired color value on click.
